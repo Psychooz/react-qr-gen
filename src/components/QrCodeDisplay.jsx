@@ -6,7 +6,7 @@ function QrCodeDisplay(props) {
   return (
     <div className="mt-6 text-center">
       <div className="bg-gray p-4 rounded-lg shadow-md inline-block">
-        <QRCode value={props.qrtext} />
+        <QRCode id="qr-code" value={props.qrtext} />
       </div>
       <DownloadQrBtn />
     </div>
