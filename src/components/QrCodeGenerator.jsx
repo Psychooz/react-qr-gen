@@ -11,7 +11,6 @@ function QRCodeGenerator(){
         value={qrtext}
         className="w-full p-3 mb-3 border border-gray-500 rounded-lg bg-dark text-white focus:outline-none focus:ring-2 focus:ring-purple"
         onChange={(e) => {
-          console.log('Input value:', e.target.value);
           setQrtext(e.target.value);
         }}
       />
