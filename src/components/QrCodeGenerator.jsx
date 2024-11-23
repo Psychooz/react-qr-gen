@@ -17,7 +17,7 @@ function QRCodeGenerator(){
       {qrtext && (
         <>
           <h3>Generated QR Code for:</h3>
-          <p className="mt-4 text-sm text-gray-300">{qrtext}</p>
+          <p className="mt-4 text-sm text-gray-300 break-words">{qrtext}</p>
           <QrCodeDisplay qrtext={qrtext} />
         </>
       )}
